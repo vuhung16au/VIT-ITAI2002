@@ -1,0 +1,14 @@
+[project]
+name = "simulating-turing-test"
+version = "0.1.0"
+description = "A simple conversational agent simulating the Turing Test."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "flake8>=7.0.0"
+]
